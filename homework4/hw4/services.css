@@ -1,0 +1,111 @@
+.services {
+    width: 1163px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.services_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+    
+}
+
+.main_title {
+    color: #333333;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main_title::after {
+    content: '';
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.service {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+   
+}
+
+.card_img {
+    min-width: 32px;
+    height: 32px;
+}
+
+.card_title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card_text {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.text_wrapper {
+  width: 269px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.team { 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 46px;
+}
+
+.team_img {
+    width: 380px;
+}
+
+.team_img_text {
+
+}
+
+.team_text {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+.team_title {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.allteam {
+    display: flex;
+    justify-content: space-between;
+}
