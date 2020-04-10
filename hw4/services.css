@@ -109,3 +109,55 @@
     display: flex;
     justify-content: space-between;
 }
+
+.footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: left;
+    margin-top: 107px;
+}
+
+.footer::before {
+    content: '';
+    width: 1200px;
+    height: 2px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+
+
+.button {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #95E1D3;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 22px 34px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 40px;
+}
+
+
+.email {
+    color: #CCCCCC;
+    font-family: 'Roboto', italic;
+    font-size: 15px;
+    font-weight: 300;
+    width: 230px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    text-align: left;
+}
+
+.fnl {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
