@@ -1,0 +1,370 @@
+.main {
+    padding-top: 165px;
+}
+
+
+.services {
+    width: 1163px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.services_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+    position: relative;
+    
+}
+
+.main_title {
+    color: #333333;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_title::after {
+    content: '';
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.text_team {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(153, 153, 153, 255);
+    margin-bottom: 80px;
+  }
+
+
+.card_title1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title1::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/ALARM@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text1 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service1 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.card_title2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title2::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/LINE\ GRAPH@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text2 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service2 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.card_title3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title3::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/COMPUTER\ _\ OK@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text3 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service3 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+.card_title4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title4::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/BOOK\ 2@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text4 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service4 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.card_title5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title5::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/HOME@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text5 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service5 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.card_title6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align-last: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.card_title6::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/IMAGE@1X.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text6 {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 61px;  
+}
+
+.service6 {
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+.text_wrapper {
+  width: 269px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: left;
+    margin-top: 107px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer::before {
+    content: '';
+    width: 1200px;
+    height: 2px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+
+.footer_forms {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.form_button {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #95E1D3;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 22px 34px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 40px;
+}
+
+.form_enter {
+    width: 230px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(204, 204, 204, 255);
+    position: relative;
+    bottom: 7px;
+}
+
