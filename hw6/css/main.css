@@ -1,0 +1,166 @@
+.main {
+    text-align: center;
+    margin: auto;
+}
+
+.section {
+    width: 1160px;
+    text-align: center;
+    padding-left: 200px;
+}
+
+.service_title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 127px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.submain_title {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #777777;
+}
+
+.card {
+    
+}
+
+.icon_wrapper {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.image {
+    width: 40px;
+    height: auto;
+
+}
+
+.image1 {
+    width: 30px;
+    height: auto;
+}
+
+.card_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 27px;
+}
+
+.card_text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    width: 274px;
+    text-align: center;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sect1 {
+    background-color: #222222;
+    width: 1400px;
+    height: 680px;
+    position: relative;
+    max-height: 677px;
+
+}
+
+.contacts {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 127px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+/*.back {
+    background-image: url(../images/Map\ Image@1X.png);
+
+}*/
+
+.map {
+    margin-left: 788px;
+    max-height: 677px;
+}
+
+.form_text {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  padding: 20px 340px 20px 20px ;
+  text-align: left;
+  margin-bottom: 29px;
+  position: relative;
+} 
+
+.forms {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    opacity: 1;
+
+
+}
+
+.form_text1 {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    bottom: 9%;
+    opacity: 1;
+    margin-left: 30px;
+} 
+
+
+.button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 73%;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+
+}
