@@ -10,11 +10,12 @@
 
 }
 
-
-
-
-
 .menu_item {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.menu_item_link {
     display: inline-block;
     margin-right: 120px;
 }
