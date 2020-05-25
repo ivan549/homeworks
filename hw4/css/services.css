@@ -38,7 +38,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-   
 }
 
 .card_img {
@@ -50,7 +49,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    text-align-last: left;
+    text-align: left;
     margin-bottom: 20px;
     text-transform: uppercase;
 }

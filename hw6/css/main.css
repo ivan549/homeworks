@@ -83,8 +83,9 @@
     height: 680px;
     position: relative;
     
-    /* background-image: url(../images/Map\ Image@1X.png); */
-
+    background-image: url(../images/Map\ Image@1X.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .contacts {
@@ -99,7 +100,7 @@
 }
 
 .back { 
-    background-image: url(../images/Map\ Image@1X.png); 
+    /* background-image: url(../images/Map\ Image@1X.png);  */
     width: 614px; 
     height: 537px; 
  } 
@@ -126,12 +127,13 @@
 .form {
     top: 50%;
     right: 45%;
-    opacity: 1;
+    /* opacity: 1; */
     display: flex;
     justify-content: space-between;
-
-    /* background-image: url(../images/Map\ Image@1X.png) */
-}
+    padding: 20px 0 0 20px;
+    /* background-image: url(../images/Map\ Image@1X.png)
+    background-repeat: no-repeat; */
+} 
 
 .form_text1 {
     border: 1px solid transparent;
@@ -142,6 +144,7 @@
     color: #bbbbbb;
     text-transform: uppercase;
     padding: 20px 0 0 20px;
+    padding: 20px 340px 20px 20px ;
     /* position: absolute; */
     bottom: 9%;
     opacity: 1;
