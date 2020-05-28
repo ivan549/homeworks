@@ -26,7 +26,7 @@
     height: 1px;
     background-color: #babdc1;
     margin-right: 10px;
-    margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .title::after {
@@ -36,7 +36,7 @@
     height: 1px;
     background-color: #babdc1;
     margin-left: 10px;
-    margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .paragraph {
@@ -59,17 +59,15 @@
 
 
 .card1 {
-    width: 330px;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 40px;
 }
 
 .img1 {
-    min-width: 24px;
+    min-width: 29px;
     height: 29px;
     margin-right: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 
@@ -92,9 +90,7 @@
 
 
 .card2 {
-    width: 330px;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 40px;
 }
 
@@ -102,11 +98,10 @@
     min-width: 24px;
     height: 29px;
     margin-right: 30px;
-    margin-left: 20px;
 }
 
 .card--cont12 {
-    width: 210px;
+    width: 227px;
 }
 
 .card__title2 {
@@ -144,6 +139,10 @@
 
 @media screen and (min-width: 768px) {
 
+    .main {
+        padding:0 2rem;
+    }
+
     .title {
         text-align: center;
         margin: 0 auto 56px;
@@ -156,22 +155,18 @@
       text-align: center;
       /* margin-left: 60px; */
       margin: 0 auto;
-      height: 91px;
     }
 
 
     .card1 {
         width: 310px;
-        height: 70px;
-        margin-bottom: 84px;
     }
 
     .cards_container {
         height: 528px;
-        flex-direction: column;
         margin-bottom: 84px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
@@ -188,9 +183,6 @@
 
     .card2 {
         width: 310px;
-        height: 70px;
-        margin-bottom: 84px;
-        margin-right: 70px;
     }
 
     .img2 {
@@ -227,7 +219,11 @@
     .phone {
         display: block;
         margin: 0 auto;
-        margin-top: 82px;
+        /* margin-top: 82px; */
+    }
+
+    .cards_container {
+        flex-direction: column;
     }
 
     .card2 {
